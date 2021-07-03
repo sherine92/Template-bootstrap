@@ -1,0 +1,110 @@
+@media all and (max-width:576px){
+/* nav and header */
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+}
+.navbar-toggler{
+    border: none;
+}
+nav ul{
+   background-color: black;
+   height: 550px;
+}
+       
+/*section1  */
+ul{
+    height: 160;
+    
+}
+.col-md-8 ul li{
+    margin-left: -45px;
+    padding: 5px;
+    
+
+}
+h2::after{
+    content: "";
+  position: absolute;
+  width: 80px;
+  height: 3px;
+  background-color:#0078ff ;
+  top:50px ;
+  left: 15px;
+}
+
+
+
+.col-md-12 h2::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color:#0078ff ;
+    top:100px ;
+    left: 220px;
+    
+  }
+
+/* section3 */
+
+.col-md-4{
+    margin-top: 40px;
+} 
+/* section4 */
+#background{
+    height: 140vh;
+}
+#background .layer{
+    height: 140vh;
+}
+#background .col-md-3{
+    height: 120px;
+    
+}
+/* section7 */
+.item2 h5::after{
+    top:285px ;
+    left: 180px;
+}
+.item3 h5::after{
+    top:285px ;
+    left: 180px;
+}
+.item4 h5::after{
+    top:285px ;
+    left: 180px;
+}
+
+#background3 .item{
+    margin-top: -30px;
+}
+
+
+
+
+   
+     
+    
+    
+    
+    
+
+    
+    
+    
+        
+    
+}
+@media all and (min-width:576px) and(max-width:767px){
+
+}
+@media all and (min-width:768px) and (max-width:991px){
+
+}
+@media all and (min-width:992px) and (max-width:1999px){
+
+}

@@ -1,0 +1,564 @@
+body{
+    background-color: rgb(243, 239, 243);
+    overflow-x: hidden;
+}
+.col-md-12 h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.col-md-12 h2::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 5px;
+  background-color:#0078ff ;
+  top:100px ;
+  left: 550px;
+  
+}
+
+nav .navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+nav .collapse{
+    font-size:18px ;
+    font-weight: 500;
+    
+}
+
+nav  li::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 0px;
+    height:2px ;
+    top:38px ;
+    left:8px ;
+    opacity: 0;
+    transition: 1s;
+
+}
+nav ul:hover li::after{
+  opacity: 1;
+  width: 40px;
+}
+ .first::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 35px;
+  height:2px ;
+  top:38px ;
+  left:8px ;
+ 
+
+}
+
+/* navbar */
+
+#home{
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position:center center ;
+    height: 100vh;
+   
+}
+.layer{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+ h1{
+    font-size: 70px;
+    
+    
+}
+
+h4{
+    font-size:40px ;
+    
+    
+}
+h4::after{
+    content: ""; 
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes text {
+    0% {
+      content: "D|";
+    }
+    1% {
+      content: "De|";
+    }
+    2% {
+      content: "Des|";
+    }
+    3% {
+      content: "Desi|";
+    }
+    4% {
+      content: "Desig|";
+    }
+    5% {
+      content: " Design|";
+    }
+    6% {
+      content: "Designe|";
+    }
+    7% {
+      content: "Designer|";
+    }
+    8% {
+      content: "Designe|";
+    }
+    9% {
+      content: " Design|";
+      
+    }
+    10% {
+      content: " Desig|";
+      
+        
+    }
+    11% {
+      content: "Desi|";
+    }
+    12% {
+      content: "Des|";
+    }
+    13% {
+      content: "De |";
+    }
+    14% {
+      content: "D|";
+    }
+    15% {
+      content: "De|";
+    }
+    16% {
+      content: "Dev|";
+    }
+    17% {
+      content: "Deve|";
+    }
+    18% {
+      content: "Devel|";
+    }
+    19% {
+      content: "Develo|";
+    }
+    20% {
+      content: "Develop|";
+    }
+    21% {
+      content: "Develope |";
+    }
+    22% {
+      content: "Developer|";
+    }
+    23% {
+      content: "Develope|";
+    }
+    24% {
+      content: "Develop|";
+    }
+    25% {
+      content: "Develo|";
+    }
+    26% {
+      content: "Devel|";
+    }
+    27% {
+      content: "Deve|";
+    }
+    28% {
+      content: "Dev|";
+    }
+    29% {
+      content: "De|";
+    }
+    30% {
+      content: "D|";
+    }
+    31% {
+        content: "|";
+      }
+    32% {
+      content: " P|";
+    }
+    33% {
+      content: " Ph|";
+    }
+    34% {
+      content: " Pho|";
+    }
+    35% {
+      content: " Phot|";
+    }
+    36% {
+      content: " Photo|";
+    }
+    37% {
+      content: " Photog|";
+    }
+    38% {
+      content: " Photogr|";
+    }
+    39% {
+      content: " Photogra|";
+    }
+    40% {
+      content: " Photograp|";
+    }
+    41% {
+      content: " Photograph|";
+    }
+    42% {
+      content: " Photographe|";
+    }
+    43% {
+      content: " Photographer|";
+    }
+    44% {
+      content: " Photographe|";
+    }
+    45% {
+      content: " Photograph|";
+    }
+    46% {
+      content: " Photograp|";
+    }
+    47% {
+      content: " Photogra|";
+    }
+    48% {
+      content: "Photogr| ";
+    }
+    49%{
+      content: "Photog| ";
+
+    }
+    50%{
+      content: "Photo| ";
+
+    }
+    52%{
+        content: "Phot| ";
+  
+      }
+    54%{
+        content: "Pho| ";
+  
+      }
+    56%{
+        content: "Ph| ";
+  
+      }
+    58%{
+        content: "P| ";
+  
+      }
+    60%{
+        content: "| ";
+  
+      }
+    62% {
+      content: "F|";
+    }
+    64% {
+      content: "Fr|";
+    }
+    66% {
+      content: "Fre|";
+    }
+    68% {
+      content: "Free |";
+    }
+    70% {
+      content: "Freel|";
+    }
+    72% {
+      content: "Freela|";
+    }
+    74% {
+      content: "Freelan|";
+    }
+    76% {
+      content: "Freelanc|";
+    }
+    78% {
+      content: "Freelance|";
+    }
+    80% {
+      content: "Freelancer|";
+    }
+    82% {
+      content: "Freelance|";
+    }
+    84% {
+      content: "Freelanc |";
+    }
+    86% {
+      content: "Freelan|";
+    }
+    88% {
+      content: "Freela|";
+    }
+    90% {
+      content: "Freel|";
+    }
+    92% {
+      content: "Free|";
+    }
+    94% {
+      content: "Fre|";
+    }
+    96% {
+      content: "Fr|";
+    }
+    98% {
+      content: "f|";
+    }
+    100% {
+        content: "|";
+      }
+  
+ 
+  }
+  /* header */
+  
+h2::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color:#0078ff ;
+    top:45px ;
+    left: 15px;
+}
+/* section1 */
+
+
+
+ span i{
+    font-size: 30px;
+    border: 10px #0078ff solid;
+    border-radius: 50%;
+    padding: 35px;
+    margin-top: 10px;
+    transition-duration:0.5s ;
+}
+span i:hover{
+    background-color:#0078ff ;
+    
+    color: white;
+    border-color:#b0cdf0 ;
+    
+}
+.item{
+    border-radius: 10px;
+
+}
+/* section2 */
+#background{
+    
+    background-image: url(../imgs/counters-bg.jpg);
+    background-size: cover;
+    background-position:center center ;
+    background-attachment:fixed ;
+    height: 60vh;
+}
+
+
+
+#background .layer{
+    background-color:rgba(44, 72, 235, 0.726);
+    height: 60vh;
+}
+#background .row i{
+    border: 10px #f5f5f5d7 solid;
+    padding: 20px;
+    font-size: 25px;
+    
+
+}
+/* section3 */
+
+
+
+
+
+.fa-plus{
+    font-size: 25px;
+    color:#0078ff ;
+    border: 2px solid  #0078ff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+.item1{
+    overflow: hidden;
+
+}
+
+
+
+.item1:hover img{
+    transform: scale(1.3) ;
+    transition-duration:1s ;
+    
+   
+    
+}
+.plus p{
+    font-size: 13px;
+}
+/* section4 */
+
+#background2{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-size: cover;
+    background-position:center center;
+    background-attachment:fixed ;
+   
+}
+.carousel-inner{
+    background-color:rgba(44, 72, 235, 0.726);
+     height: 80vh; 
+     
+    
+}
+.carousel-item p{
+    max-width: 700px;
+    margin: auto;
+}
+
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    
+   
+}
+/* section5 */
+
+.item2{
+    position: relative;
+}
+
+.item2 h5::after{
+    content: "Travel ";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color:#0078ff ;
+    top:215px ;
+    left: 130px;
+    border-radius: 3px;
+
+}
+.item3 h5::after{
+    content: "Web Design ";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color:#0078ff ;
+    top:215px ;
+    left: 130px;
+    border-radius: 3px;
+
+}
+.item4 h5::after{
+    content: "Web Design ";
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color:#0078ff ;
+    top:215px ;
+    left: 130px;
+    border-radius: 3px;
+
+}
+.morgan{
+    height: 15px;
+    
+}
+
+
+.morgan img{
+    width: 35px;
+    height:35px ;
+    border-radius: 50%;
+}
+/* section6 */
+
+#background3{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-size: cover;
+  
+    background-attachment: fixed;
+}
+
+
+#background3 .layer{
+ 
+    background-color:rgba(44, 72, 235, 0.726);
+    height: 100vh;
+    
+
+}
+.btn-primary{
+    border-radius: 40px;
+    padding:8px 20px;
+    margin: auto;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+#background3 h2::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color:#0078ff ;
+    top:45px ;
+    left: 25px;
+    
+}
+
+.fab{
+    border: 3px #0078ff solid;
+    padding: 10px;
+    font-size: 20px;
+}
+.end{
+    background-color:  #0078ff;
+}
+/* section7 */
+
+
+
